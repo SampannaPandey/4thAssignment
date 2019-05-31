@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    tools:context="fragment.LoginFragment"
+    android:background="#F9F9FA">
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:textColorHint="#000000"
+
+        android:layout_margin="20dp">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#070707"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_gravity="center"
+        android:text="Login"
+
+
+        android:textColorHint="#000"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Not a User? Swipe Right"
+        android:textColorHint="#050505"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
